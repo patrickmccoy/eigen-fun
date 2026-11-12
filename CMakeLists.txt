@@ -22,6 +22,7 @@ include(cmake/Dependencies.cmake)
 # ---------------------------------------------------------------------------
 add_library(eigen_fun
   src/linalg.cpp
+  src/parallel.cpp
 )
 target_include_directories(eigen_fun PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries(eigen_fun PUBLIC Eigen3::Eigen Threads::Threads)

@@ -18,3 +18,9 @@ ef_add_test_suite(move_tests
   move/buffer_test.cpp
   move/eigen_move_test.cpp
 )
+
+ef_add_test_suite(threading_tests
+  threading/queue_test.cpp
+  threading/thread_pool_test.cpp
+  threading/parallel_test.cpp
+)
