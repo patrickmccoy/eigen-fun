@@ -12,3 +12,9 @@ ef_add_test_suite(eigen_tests
   eigen/basics_test.cpp
   eigen/linalg_test.cpp
 )
+
+ef_add_test_suite(move_tests
+  move/tracked_test.cpp
+  move/buffer_test.cpp
+  move/eigen_move_test.cpp
+)
